@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- hyper text markup language-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics</title>
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+  <body>
+    <h1>Hello Wrold</h1>
+    <h2>Hello Wrold</h2>
+    <h3>Hello Wrold</h3>
+    <h4>Hello Wrold</h4>
+    <h5>Hello Wrold</h5>
+    <h6>Hello Wrold</h6>
+    <p align="right">hello</p>
+    <p>
+      <b
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis
+        praesentium modi temporibus eos ullam,</b
+      >
+      <i>esse provident deserunt architecto quod.</i>.
+      <small>Consequuntur saepe illum </small>vero praesentium assumenda modi
+      deserunt nesciunt laboriosam!
+    </p>
+    <hr />
+    <br />
+
+    <!--HTML Entities    special character, emojies, symbols, reserved charcters-->
+    <h1>Hello Wrold &lt;h1&gt;</h1>
+
+    <!--order lists with sub unordered list-->
+    <ol type="i">
+      <li>Home</li>
+      <li>About</li>
+      <li>Blog</li>
+      <li>Projects</li>
+      <ul>
+        <li>Web Project</li>
+        <li>Database Project</li>
+        <li>Computer Networks Project</li>
+        <li>Software Project</li>
+      </ul>
+      <li>Services</li>
+    </ol>
+    <!--Un-ordered list-->
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Blog</li>
+      <li>Projects</li>
+      <li>Services</li>
+    </ul>
+    <!--Hyper Link-->
+    <a href="https:www.google.com" target="_blank">Google</a>
+    <br />
+    <a href="https://ibrarbabar.000webhostapp.com/" target="_blank">
+      My Website
+    </a>
+    <!---->
+    <a href="page2.html">Page2</a><br />
+    <a
+      href="subfolder1/Ubuntu-Installation-Manual (1).pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Ubunto Ubuntu-Installation-Manual
+    </a>
+    <br />
+    <hr />
+    <!--------------------------------------->
+    <img src="img/a.jpg" alt="this is an image" width="500" />
+    <hr />
+    <video
+      src="video/video.mp4"
+      width="300"
+      controls
+      loop
+      muted
+      poster="img/a.jpg"
+    ></video>
+    <!-- embedding-->
+
+    <iframe
+      width="500"
+      height="315"
+      src="https://www.youtube.com/embed/ATm0cWqowxE"
+      title="YouTube video player"
+      frameborder="1"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://ibrarbabar.000webhostapp.com/"
+      frameborder="0"
+      width="400"
+      height="300"
+    ></iframe>
+    <hr />
+    <!--Table format-->
+    <table>
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Theory</th>
+          <th>Practical</th>
+          <th>Total Marks</th>
+          <th>Grades</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>English Writing</td>
+          <td>45</td>
+          <td>10</td>
+          <td>55</td>
+          <td>D+</td>
+        </tr>
+        <tr>
+          <td>Automata</td>
+          <td>85</td>
+          <td>10</td>
+          <td>95</td>
+          <td>A+</td>
+        </tr>
+        <tr>
+          <td>Chemistry</td>
+          <td>60</td>
+          <td>10</td>
+          <td>70</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Numerical</td>
+          <td>78</td>
+          <td>-</td>
+          <td>78</td>
+          <td>-A</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan="5">Result:Pass</th>
+      </tfoot>
+    </table>
+    <hr />
+    <hr />
+    <!--Payment Form-->
+    <h1 align="center">Payment Form</h1>
+    <form action="">
+      <h2>Contact Informtaion</h2>
+      <p>Name: <input type="text" name="name" required /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          Male <input type="radio" name="gender" id="male" required /> Female
+          <input type="radio" name="gender" id="female" required />
+        </p>
+      </fieldset>
+      <p>
+        Address:
+        <textarea name="address" id="address" cols="100" rows="8"></textarea>
+      </p>
+      <p>Email: <input type="email" name="emial" id="email" required /></p>
+      <p>
+        Pincode: <input type="number" name="pincode" id="pincode" required />
+      </p>
+      <hr />
+      <h2>Payment Information</h2>
+      <p>
+        Card Type:
+        <select name="card_type" id="card_type" required>
+          <option value="">--Select a Card Type--</option>
+          <option value="visa">Visa</option>
+          <option value="rupy">Rupy</option>
+          <option value="mastercard">MasterCard</option>
+        </select>
+      </p>
+      <p>
+        Card Number:
+        <input type="number" name="card_number" id="card_number" required />
+      </p>
+      <p>
+        Expiration Date:
+        <input type="date" name="exp_date" id="exp_date" required />
+      </p>
+      <p>CVV <input type="password" name="cvv" id="cvv" required /></p>
+      <input type="submit" value="Pay Now" />
+    </form>
+    <hr />
+    <!--inline and block elements-->
+    <inline>hi this is ibrar</inline>
+    <p>this is 1</p>
+    <p>this is 2</p>
+    <p>this is 3</p>
+    <em>this is ibrar</em>
+    <em>and I am currently pursuing my bachlor's in computer science.</em>
+    <p>asdasf</p>
+    <hr>
+    <hr>
+    <header>Web developer</header>
+  </body>
+</html>
